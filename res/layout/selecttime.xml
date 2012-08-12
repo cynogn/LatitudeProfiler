@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+      <LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_x="0dip" android:layout_height="wrap_content" android:layout_y="80dip">
+        <ListView android:id="@+id/listView1" android:layout_height="wrap_content" android:layout_width="fill_parent"></ListView>
+    </LinearLayout>
+    <Button android:background="@drawable/grad" android:id="@+id/button1" android:layout_width="125dip" android:text="New Time Rule.." android:layout_height="wrap_content" android:layout_x="89dip" android:layout_y="6dip"></Button>
+  <TextView android:textSize="20dip"  android:textColor="#D59F00" android:text="Existing Rules, " android:id="@+id/textView1" android:layout_x="10dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_y="50dip"></TextView>
+</AbsoluteLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/pic1">
+    <TextView android:textColor="#ffffff" android:textSize="20dip" android:textStyle="bold" android:id="@+id/textView1" android:layout_width="wrap_content" android:text="Set time" android:layout_height="wrap_content" android:layout_x="13dip" android:layout_y="17dip"></TextView>
+    <Spinner android:id="@+id/spinner1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_x="1dip" android:layout_y="180dip"></Spinner>
+    <TextView android:textColor="#ffffff" android:textStyle="bold" android:id="@+id/textView2" android:layout_width="wrap_content" android:text="Choose profile" android:textSize="20dip" android:layout_height="wrap_content" android:layout_x="14dip" android:layout_y="144dip"></TextView>
+    <Button android:id="@+id/button1" android:text="Set Time" android:background="@drawable/grad" android:layout_width="125dip" android:layout_height="wrap_content" android:layout_x="81dip" android:layout_y="69dip"></Button>
+    <Button android:id="@+id/button2" android:background="@drawable/grad" android:text="Save" android:layout_width="125dip" android:layout_height="wrap_content" android:layout_x="20dip" android:layout_y="304dip"></Button>
+    <Button android:id="@+id/button3" android:background="@drawable/grad" android:text="Delete" android:layout_width="125dip" android:layout_height="wrap_content" android:layout_x="172dip" android:layout_y="304dip"></Button>
+</AbsoluteLayout>

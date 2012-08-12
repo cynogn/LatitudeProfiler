@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <com.google.android.maps.MapView    
+  xmlns:android="http://schemas.android.com/apk/res/android"    
+  android:id="@+id/mapview"    
+  android:layout_width="fill_parent"    
+  android:layout_height="fill_parent"    
+  android:clickable="true"    
+  android:apiKey="02u_iC_AorA43gMtRKPc6FegeQelt6eeDXz11zA"/>
+  <Button android:layout_height="wrap_content" android:background="@drawable/grad" android:layout_width="125dip" android:text="Set Lat Lon" android:id="@+id/button1" android:layout_x="92dip" android:layout_y="361dip"></Button>
+</AbsoluteLayout>

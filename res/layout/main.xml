@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pic1"
+    >
+    <Button android:layout_height="wrap_content" android:text="Settings" android:id="@+id/button1" android:layout_width="125dip" android:background="@drawable/grad" android:layout_x="29dip" android:layout_y="376dip"></Button>
+    <Button android:layout_height="wrap_content" android:text="Exit" android:id="@+id/button2" android:layout_width="125dip" android:background="@drawable/grad" android:layout_x="172dip" android:layout_y="376dip"></Button>
+    <Spinner android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/spinner2" android:layout_x="1dip" android:layout_y="290dip"></Spinner>
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:textColor="#000000" android:textSize="20dip" android:gravity="top" android:fitsSystemWindows="true" android:textStyle="bold" android:layout_width="wrap_content" android:enabled="true" android:text="Criteria" android:layout_x="0dip" android:layout_y="184dip"></TextView>
+    <RadioGroup android:baselineAligned="true" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal" android:id="@+id/radioGroup2" android:layout_x="0dip" android:layout_y="216dip">
+        <RadioButton android:text="GPS             " android:layout_width="wrap_content" android:textColor="#000000" android:checked="true" android:id="@+id/radio0" android:layout_height="wrap_content" android:textStyle="bold"></RadioButton>
+        <RadioButton android:text="Time" android:layout_width="wrap_content" android:textColor="#000000" android:id="@+id/radio1" android:layout_height="wrap_content" android:textStyle="bold"></RadioButton>
+    </RadioGroup>
+    <Spinner android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/spinner1" android:layout_x="1dip" android:layout_y="97dip"></Spinner>
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:textColor="#000000" android:textSize="20dip" android:textStyle="bold" android:editable="true" android:layout_width="wrap_content" android:text="Profiles" android:layout_x="4dip" android:layout_y="42dip"></TextView>
+</AbsoluteLayout>

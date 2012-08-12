@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"    
+ android:id="@+id/scroller"     
+ android:layout_width="fill_parent"     
+ android:layout_height="fill_parent"     
+android:fillViewport="true" > 
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/pic1">
+  
+    <TextView android:textSize="16dip"  android:textColor="#ffffff"  android:layout_height="wrap_content" android:text="Profile Name" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_x="12dip" android:layout_y="10dip"></TextView>
+    <EditText android:id="@+id/editText1" android:layout_height="40dip" android:text="" android:layout_width="130dip" android:layout_x="120dip" android:layout_y="6dip" android:hint="Enter name.."></EditText>
+    <CheckBox android:id="@+id/checkBox1" android:layout_height="wrap_content" android:text="Silent" android:layout_width="wrap_content" android:layout_x="13dip" android:layout_y="52dip"></CheckBox>
+    <CheckBox android:id="@+id/checkBox2" android:layout_height="wrap_content" android:text="Vibration" android:layout_width="wrap_content" android:layout_x="177dip" android:layout_y="52dip"></CheckBox>
+    <CheckBox android:id="@+id/checkBox3" android:layout_height="wrap_content" android:text="WiFi" android:layout_width="wrap_content" android:layout_x="13dip" android:layout_y="108dip"></CheckBox>
+    <Button android:text="+" android:id="@+id/Button05" android:layout_width="40dip" android:layout_height="35dip" android:background="@drawable/grad" android:layout_x="140dip" android:layout_y="345dip"></Button>
+    <EditText android:text="0" android:id="@+id/EditText03" android:layout_width="60dip" android:layout_height="40dip" android:layout_x="192dip" android:layout_y="345dip"></EditText>
+    <Button android:text="-" android:id="@+id/Button06" android:layout_width="40dip" android:layout_height="35dip" android:background="@drawable/grad" android:layout_x="260dip" android:layout_y="345dip"></Button>
+    <EditText android:text="0" android:id="@+id/EditText02" android:layout_width="60dip" android:layout_height="40dip" android:layout_x="192dip" android:layout_y="285dip"></EditText>
+    <Button android:text="-" android:id="@+id/Button04" android:layout_width="40dip" android:layout_height="35dip" android:background="@drawable/grad" android:layout_x="260dip" android:layout_y="285dip"></Button>
+    <Button android:text="+" android:id="@+id/Button01" android:layout_width="40dip" android:layout_height="35dip" android:background="@drawable/grad" android:layout_x="140dip" android:layout_y="222dip"></Button>
+    <Button android:text="-" android:id="@+id/Button02" android:layout_width="40dip" android:layout_height="35dip" android:background="@drawable/grad" android:layout_x="260dip" android:layout_y="222dip"></Button>
+    <EditText android:text="0" android:id="@+id/EditText01" android:layout_width="60dip" android:layout_height="40dip" android:layout_x="192dip" android:layout_y="222dip"></EditText>
+    <TextView android:textSize="16dip"  android:textColor="#ffffff"  android:text="Alarm Volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextView01" android:layout_x="34dip" android:layout_y="292dip"></TextView>
+    <TextView android:textSize="16dip"  android:textColor="#ffffff"  android:text="Ringtone Volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_x="16dip" android:layout_y="229dip"></TextView>
+    <Button android:text="+" android:id="@+id/button2" android:layout_width="40dip" android:layout_height="35dip" android:background="@drawable/grad" android:layout_x="140dip" android:layout_y="165dip"></Button>
+    <EditText android:text="0" android:id="@+id/editText2" android:layout_width="60dip" android:layout_height="40dip" android:layout_x="192dip" android:layout_y="165dip"></EditText>
+    <Button android:text="-" android:id="@+id/button3" android:layout_width="40dip" android:layout_height="35dip" android:background="@drawable/grad" android:layout_x="260dip" android:layout_y="165dip"></Button>
+    <TextView android:textSize="16dip" android:textColor="#ffffff"  android:text="Media Volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_x="33dip" android:layout_y="176dip"></TextView>
+    <Button android:text="+" android:id="@+id/Button03" android:layout_width="40dip" android:layout_height="35dip" android:background="@drawable/grad" android:layout_x="141dip" android:layout_y="285dip"></Button>
+    <Button android:id="@+id/button1" android:background="@drawable/grad" android:text="Save" android:layout_width="125dip" android:layout_height="wrap_content" android:layout_x="25dip" android:layout_y="414dip"></Button>
+    <Button android:id="@+id/button4" android:background="@drawable/grad" android:text="Delete" android:layout_width="125dip" android:layout_height="wrap_content" android:layout_x="177dip" android:layout_y="414dip"></Button>
+    <TextView android:textColor="#ffffff" android:text="Notification Volume" android:id="@+id/TextView02" android:textSize="16dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="0dip" android:layout_y="352dip"></TextView>
+
+</AbsoluteLayout>
+</ScrollView>
